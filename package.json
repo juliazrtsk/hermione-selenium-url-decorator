@@ -1,5 +1,5 @@
 {
-  "name": "hermione-selenium-url-decorator",
+  "name": "hermione-url-decorator",
   "version": "1.0.0",
   "engines": {
     "node": "14.17.3"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/juliazrtsk/hermione-selenium-url-decorator"
+    "url": "git+ssh://git@github.com/juliazrtsk/hermione-url-decorator"
   },
   "author": "Julia Zaretskaya <julia.zrtsk@gmail.com>",
   "dependencies": {
