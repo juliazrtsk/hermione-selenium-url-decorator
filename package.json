@@ -1,0 +1,29 @@
+{
+  "name": "hermione-selenium-url-decorator",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.17.3"
+  },
+  "description": "Plugin for managing url",
+  "main": "src/index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juliazrtsk/hermione-selenium-url-decorator"
+  },
+  "author": "Julia Zaretskaya <julia.zrtsk@gmail.com>",
+  "dependencies": {
+    "eslint": "^7.30.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.2",
+    "urijs": "^1.19.6"
+  },
+  "license": "ISC",
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write",
+    "*.js": "eslint --cache --fix"
+  }
+}
